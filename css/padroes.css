@@ -1,0 +1,11 @@
+:root{
+    --background_color: #E4E4E4;
+    --font_color: rgba(0, 0, 0, 0.65);
+    --font_color_bold: #000000;
+}
+
+body{
+    font-family: 'Jaldi', sans-serif;
+    overflow-x: hidden;
+}
+
