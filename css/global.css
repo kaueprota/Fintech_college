@@ -3,6 +3,8 @@
 @import url(./padroes.css);
 @import url(./responsive.css);
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
 
 *{
     margin: 0;

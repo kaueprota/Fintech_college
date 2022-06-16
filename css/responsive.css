@@ -7,10 +7,42 @@
         width: 300px;
         height: 300px;
     }
+
+    .container-bank{
+        width: 55vw;
+    }
+
+    .container-bank .base{
+        font-size: 24px;
+    }
+    .container-bank .tonic{
+        font-size: 24px;
+    }
+
 }
 
 @media only screen and (max-width: 850px){
-    nav li a{
-        font-size: 12px;
+    
+    nav{
+        display: none;
     }
+
+    #nav-mobi{
+        display: flex;
+        position: absolute;
+    
+    }
+
+    #nav-mobi li{
+
+    }
+
+
+
+
+    .container-bank{
+        width: 80vw;
+    }
+
+    
 }
