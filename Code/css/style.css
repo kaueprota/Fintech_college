@@ -237,3 +237,67 @@ main a{
 i{
     font-size: 40px;
 }
+
+
+/*ESTILOS PARA O MAIN CONTAS_PRÓXIMAS.HTML*/
+#contas{
+    width: 50vw;
+    height: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#contas-container{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 100px);
+}
+
+#contas .table thead{
+    text-align:center;
+}
+
+#contas .table thead tr{
+    border-top: 1px dashed #515151;
+}
+
+.line{
+    border-top: 1.09px dashed #515151 !important;
+}
+
+#contas .table tbody tr:last-child{
+    border-bottom: 1.1px dashed #515151 !important;
+}
+
+#contas .table thead tr th{
+    color: rgb(47 47 47);
+    font-family: 'Jaldi', sans-serif;
+
+}
+
+
+/*ESTILOS PARA O MAIN CONFIGURAÇÕES.HTML*/
+#main-config{
+    background-color: white;
+}
+
+/*ESTILOS PARA OPÇÕES DE CONFIGURAÇÕES EM CONFIGURAÇÕES.HTML*/
+#config{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#config a{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 30px;
+    color: #414141;
+    padding: 8px 10px;
+    text-decoration: none;
+    
+}
+
+#container-config{
+    width: 56vw;
+    height: 100%;
+}
